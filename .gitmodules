@@ -1,7 +1,7 @@
-[submodule "themes/minimal"]
-	path = themes/minimal
-	url = https://github.com/calintat/minimal.git
 [submodule "public"]
 	path = public
 	url = git@github.com:hooskers/hooskers.github.io.git
 	branch = master
+[submodule "themes/minimo"]
+	path = themes/minimo
+	url = https://github.com/MunifTanjim/minimo
