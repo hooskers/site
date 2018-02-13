@@ -1,0 +1,11 @@
+html {
+	background-color: whitesmoke;
+}
+
+header .sep-after:after {
+	border-bottom-color: #8540ff !important;
+}
+
+footer .sep-before:before {
+	border-bottom-color: #8540ff !important;
+}

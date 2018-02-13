@@ -1,61 +1,118 @@
 baseURL = "https://hooskers.github.io"
-languageCode = "en-us"
-title = "Wade"
-theme = "minimal"
+title = "Wade Johnson"
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = ""
+
+theme = "minimo"
+
+disqusShortname = ""
 googleAnalytics = ""
 
-[params]
-    author = "Wade Johnson"
-    description = "Javascript Engineer"
-    githubUsername = "hooskers"
-    accent = "#673ab7"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Catamaran" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "github"
-    highlightLanguages = ["bash", "go", "javascript", "typescript", "css", "json", "html", "protobuf"]
+Paginate = 5
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+logo = "/images/poop.png"
+
+[params.info]
+description = "Javascript Engineer"
+title404 = "Nothing's here!"
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = []
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = ""
+holder = ""
+startYear = ""
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+archiveDateFormat = "Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideSocialMenu = false
+showReadingTime = true
+taxonomyCloudShuffle = true
+
+[params.sidebar]
+enable = true
+sticky = true
+
+[params.widgets]
+homepage = []
+sidebar = ["about"]
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+#codepen = "MunifTanjim"
+email = "wadej93@gmail.com"
+#facebook = "MunifTanjim"
+github = "hooskers"
+#gitlab = "MunifTanjim"
+#instagram = "MunifTanjim"
+linkedin = "wadejohnsontech"
+twitter = "hooskers"
+#telegram = "MunifTanjim"
+#google_scholar = "qc6CJjYAAAAJ"
+
+[params.social.config]
+platforms = ["github","twitter","email","linkedin"]
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
+#[[menu.main]]
+#name = "Repo"
+#weight = -10
+#identifier = "repository"
+#url = "https://github.com/MunifTanjim/minimo"
 
 [[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+name = "Posts"
+weight = -11
+identifier = "posts"
+url = "/posts"
 
 [[menu.main]]
-    url = "/posts/"
-    name = "Posts"
-    weight = 2
+name = "Resume"
+weight = -12
+identifier = "resume"
+url = "/resume"
 
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 3
+[blackfriday]
+hrefTargetBlank = true
 
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
-
-[[menu.icon]]
-    url = "mailto:wadej93@gmail.com"
-    name = "envelope-o"
-    weight = 1
-
-[[menu.icon]]
-    url = "https://github.com/hooskers/"
-    name = "github"
-    weight = 2
-
-[[menu.icon]]
-    url = "https://twitter.com/hooskers/"
-    name = "twitter"
-    weight = 3
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/wadejohnsontech/"
-    name = "linkedin"
-    weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/users/story/1215306"
-    name = "stack-overflow"
-    weight = 5
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
