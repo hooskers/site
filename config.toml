@@ -103,9 +103,15 @@ url = "/posts"
 
 [[menu.main]]
 name = "Resume"
-weight = -12
+weight = -13
 identifier = "resume"
 url = "/resume"
+
+[[menu.main]]
+name = "Projects"
+weight = -12
+identifier = "projects"
+url = "/projects"
 
 [blackfriday]
 hrefTargetBlank = true
