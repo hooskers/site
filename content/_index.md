@@ -3,4 +3,6 @@ title: Home
 menu: main
 weight: -270
 ---
-My name is Wade Johnson and I am a Javascript developer. I love learning about and building projects with the latest technology. I mainly focus on frontend development where my tool of choice is React, but I also work with Node. A few things I'm currently exploring right now are React Native, ReactVR, and I've also been playing around with Go a little bit.
+I am a Javascript engineer living in Portland, Oregon. I have experience with many Javascript frameworks/tools such as React, Backbone, AngularJS, Webpack, Node, Ionic/Cordova, and Electron. I always strive to create simple, readable, and maintainable code.
+
+I mainly focus on the frontend in the React ecosystem with tools like Redux, Emotion, Webpack, and Babel, but I often write backend code with Node, Java, and Golang.

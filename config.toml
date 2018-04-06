@@ -21,7 +21,7 @@ defaultContentLanguage = "en"
 logo = "/images/poop.png"
 
 [params.info]
-description = "Javascript Developer"
+description = "Javascript Engineer"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -95,11 +95,11 @@ page = "/:slug/"
 #identifier = "repository"
 #url = "https://github.com/MunifTanjim/minimo"
 
-[[menu.main]]
-name = "Posts"
-weight = -11
-identifier = "posts"
-url = "/posts"
+#[[menu.main]]
+#name = "Posts"
+#weight = -11
+#identifier = "posts"
+#url = "/posts"
 
 [[menu.main]]
 name = "Resume"
