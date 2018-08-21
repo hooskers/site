@@ -6,7 +6,7 @@ draft: false
 ---
 ### Front End Developer
 **NetXposure, Inc.**
-_Digital asset management company in Portland, Oregon_
+_Digital asset management company in Portland, Oregon_\
 _2018 - Present_
 
 - Implemented new features and fixed bugs filed in Jira for the front end (Backbone.js SPA) and the back end (Java server/RPC API)
@@ -17,7 +17,7 @@ _2018 - Present_
 
 ### QA Engineer
 **NetXposure, Inc.**  
-_Digital asset management company in Portland, Oregon_  
+_Digital asset management company in Portland, Oregon_\
 _2015 - 2018_
 
 - Created MySQL/MSSQL container test framework to improve stability of Java code changes
@@ -29,7 +29,7 @@ _2015 - 2018_
 
 ### JavaScript App Developer
 **The Critical Thinking Co.**  
-_Educational book and software publisher in North Bend, Oregon_  
+_Educational book and software publisher in North Bend, Oregon_\
 _2014 - 2015_
 
 - Built apps for App/Play Store with Ionic/Angular/Electron for web/desktop/iOS/Android platforms
