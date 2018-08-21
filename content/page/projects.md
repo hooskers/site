@@ -7,7 +7,7 @@ draft: false
 
 PDX Live Transit consists of a [backend piece](https://github.com/hooskers/pdx-live-transit-server) and a [frontend piece](https://github.com/hooskers/pdx-live-transit) that use Trimet's Realtime GTFS API to show all of their vehicles in the Portland metro area on a map in realtime.
 
-The backend is a simple Express server that has Javascript code compiled from Realtime GTFS protobufs. All it does is get the vehicle positions from Trimet's endpoint, marshals it to JSON, and sends it to the client. Soon, it will be refactored into a GraphQL sever.
+The backend is a simple Express server that has JavaScript code compiled from Realtime GTFS protobufs. All it does is get the vehicle positions from Trimet's endpoint, marshals it to JSON, and sends it to the client. Soon, it will be refactored into a GraphQL sever.
 
 The frontend is built in React and shows all of the Trimet vehicles in realtime using Google Maps. The vehicles are arrows that point in the same direction as the vehicle and their color matches their line color (or black for buses).
 Hovering over a vehicle's card in the sidebar will magnify the vehicle's marker and make all other markers transparent. Clicking a vehicle's card will lock in the same effect for a single vehicle.
@@ -17,7 +17,7 @@ Hovering over a vehicle's card in the sidebar will magnify the vehicle's marker 
 - The backend is hosted on Heroku's free tier, so the first load may take a while while the instance spins up.
 - The sidebar uses `backdrop-filter` for a blur effect which is only supported in Safari. Can be seen in Chrome by turning on the `Enable Experimental Web Platform Features` flag in Chrome's `chrome://flags`.
 - The sidebar filter only filters on the vehicle's labels (like `Blue to Hillsboro` or `4 To St. Johns`). Soon there will be functionality to filter on current stop, and vehicle type.
-- Stop IDs are shown instead of the name. Like `In transit to 1448` instead of `In transit to SE Division & 30th`. I probably won't fix that until I do the GraphQL refactor on the backend since it requires more informtion than is given from Trimet's vehicle positions endpoint.
+- Stop IDs are shown instead of the name. Like `In transit to 1448` instead of `In transit to SE Division & 30th`.
 
 #### Tools:
 

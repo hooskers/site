@@ -21,7 +21,7 @@ defaultContentLanguage = "en"
 logo = "/images/poop.png"
 
 [params.info]
-description = "Javascript Engineer"
+description = "JavaScript Engineer"
 title404 = "Nothing's here!"
 
 [params.assets]
