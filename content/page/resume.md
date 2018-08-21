@@ -22,6 +22,7 @@ _2015 - 2018_
 
 - Created MySQL/MSSQL container test framework to improve stability of Java code changes
 - Setup automated UI testing framework with Cypress and Jenkins
+- Add features/fix bugs in front end (Backbone) and back end (Java) found during QA
 - Created Docker container of webapp to replace VM dev environments and streamline manual and automated QA processes
 - Created robust testing plan that decreased amount of bugs released into production
 - Coordinated QA team throughout testing phase of new product and feature releases
